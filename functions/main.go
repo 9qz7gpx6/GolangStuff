@@ -16,7 +16,7 @@ func allOperations(n1 int, n2 int) (int, int, int, float64, int) {
 	// **Just a little parentesis
 	// now you have some examples of Arithmetics operators
 
-	// its important to sai that you cannot use any operator with variables of different types
+	// It's important to say that you cannot use any operator with variables of different types
 	// you can't sum, subtract, compare, you can do nothing
 	// to work with different types you must firs convert the
 	// values
@@ -120,3 +120,13 @@ var modulus = func(num1 int, num2 int) float32 {
 	fmt.Println("modulus")
 	return (float32)(num1 % num2)
 }
+
+// For now it is enough with function
+//  -> for further information about the types of functions
+//  -> refer to
+//
+// By now you are famyliar with parameter and
+// might be thinking:
+// How are the values passed to the
+// functions, by value or by reference?
+// It is better explained at pointers/main.go

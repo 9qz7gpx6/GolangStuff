@@ -178,7 +178,7 @@ func main() {
 	fmt.Println(number1)
 
 	// Unfortunatly (or not) there aren't ternary operators in go
-	//
+
 	// Error is also a type.
 	// Refer to errors/main.go to learn more
 
@@ -191,7 +191,12 @@ func main() {
 	// 	for numbers are 0
 	// 	for an error is nil
 	//
+	//  You can also create your own types
+	//  you can learn more about that on
+	//  struct/main.go
+	//
 	// 	Functions are also a type in go
 	// 	go to functions/main.go to learn more
+	//
 
 }

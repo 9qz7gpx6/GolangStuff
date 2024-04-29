@@ -37,7 +37,7 @@ func main() {
 
 	// You can instantiate strucs like
 	// calling a constructor
-	// pay atenttion the we are using {} and not ()
+	// pay atenttion the we are using braces {} and not parentheses ()
 	compositeStuff := CompositeStuff{1, 2, 3, stuff}
 
 	// You can instantiate strucs like
@@ -68,5 +68,6 @@ func main() {
 
 // By now you might be thinking on how to organize your
 // structs and funcions
+//
 // To do so you will need to know about packages
-// go to
+// go to ../packages/main.go from here
